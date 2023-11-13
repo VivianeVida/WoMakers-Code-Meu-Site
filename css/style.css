@@ -1,0 +1,46 @@
+/* Estilização do corpo da página */
+body {
+  background-color: hsl(316, 72%, 71%); /* Define a cor de fundo da página */
+  font-family: Arial, sans-serif; /* Define a família de fontes para o texto da página */
+  margin: 0; /* Remove margens padrão do corpo da página */
+  padding: 0; /* Remove preenchimento padrão do corpo da página */
+}
+
+/* Estilização do título principal */
+.title {
+  text-align: center; /* Centraliza o texto do título */
+  font-size: 40px; /* Define o tamanho da fonte do título */
+}
+
+/* Estilização da classe "carousel" */
+.carousel {
+  text-align: center; /* Centraliza o conteúdo do carrossel */
+}
+
+/* Estilização das imagens nos slides */
+.slide img {
+  border-radius: 50%; /* Aplica um efeito de borda arredondada nas imagens */
+  opacity: 0.8; /* Define a opacidade das imagens */
+  max-width: 100%; /* Define a largura máxima das imagens para que não ultrapassem os contêineres */
+}
+
+/* Estilização dos parágrafos nos slides */
+.slide p {
+  font-size: 25px; /* Define o tamanho da fonte dos parágrafos */
+  text-align: left; /* Alinha o texto dos parágrafos à esquerda */
+}
+
+/* Estilização dos botões */
+button {
+  background-color: #ff0066; /* Define a cor de fundo dos botões */
+  color: #fff; /* Define a cor do texto dos botões */
+  border: none; /* Remove a borda dos botões */
+  padding: 10px 20px; /* Define o preenchimento dos botões */
+  font-size: 18px; /* Define o tamanho da fonte dos botões */
+  cursor: pointer; /* Altera o cursor para indicar que os botões são clicáveis */
+}
+
+/* Estilização de foco nos botões (quando são clicados) */
+button:focus {
+  outline: none; /* Remove a borda de foco padrão ao clicar nos botões */
+}
